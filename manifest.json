@@ -1,17 +1,17 @@
 {
-  "name": "Julius JS",
+  "name": "whatsapp-ctrl-k",
   "version": "1.0",
-  "description": "Julius",
+  "description": "ctrl-k no whatsapp",
   "authors": [{
-    "name": "Andrew S Aguiar",
-    "email": "andrewaguiar6@gmail.com"
+    "name": "Alex S Aguiar",
+    "email": "alex3aguiar@gmail.com"
   }],
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
       "run_at": "document_idle",
       "all_frames": true,
-      "js": ["julius.js"]
+      "js": ["ctrl-k.js"]
     }
   ],
   "icons": {
@@ -19,5 +19,5 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 1
 }
